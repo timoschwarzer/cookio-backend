@@ -72,6 +72,7 @@ class RouteServiceProvider extends ServiceProvider
      */
     protected function mapApiRoutes()
     {
+        // change localhost to api.cangarw.de for production
         Route::domain('localhost')
             // Route::domain('api.cangarw.de')
             ->middleware('api')
